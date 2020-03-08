@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="950.0" prefWidth="450.0" style="-fx-background-color: #0B0C10;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CarDivide">
+    <children>
+      <Button fx:id="exit4" layoutX="412.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit4" style="-fx-background-color: #00000000;" text="X" textFill="#1c7474" />
+      <Button fx:id="exit6" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mainmenu" style="-fx-background-color: #00000000;" text="&lt;-" textFill="#1c7474" />
+      <Button fx:id="car_tab" layoutX="81.0" layoutY="480.0" mnemonicParsing="false" onAction="#CarTable" prefHeight="33.0" prefWidth="289.0" style="-fx-border-color: #45A29E; -fx-background-color: #0B0C10; -fx-border-radius: 25;" text="Check Table" textFill="WHITE">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font>
+      </Button>
+        
+        <Button fx:id="car_modify" layoutX="81.0" layoutY="437.0" mnemonicParsing="false" onAction="#update" prefHeight="33.0" prefWidth="289.0" style="-fx-border-color: #45A29E; -fx-background-color: #0B0C10; -fx-border-radius: 25;" text="Update" textFill="WHITE">
+            <font>
+                <Font name="Perpetua" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="car_del" layoutX="81.0" layoutY="344.0" mnemonicParsing="false" onAction="#delete" prefHeight="33.0" prefWidth="289.0" style="-fx-border-color: #45A29E; -fx-background-color: #0B0C10; -fx-border-radius: 25;" text="Delete" textFill="WHITE">
+            <font>
+                <Font name="Perpetua" size="16.0" />
+            </font>
+        </Button>
+
+      <Button fx:id="car_val" layoutX="81.0" layoutY="523.0" mnemonicParsing="false" onAction="#carInsert" prefHeight="33.0" prefWidth="289.0" style="-fx-border-color: #45A29E; -fx-background-color: #0B0C10; -fx-border-radius: 25;" text="New Value" textFill="WHITE">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font>
+      </Button>
+        <Button fx:id="car_ser" layoutX="80.0" layoutY="389.0" mnemonicParsing="false" onAction="#search" prefHeight="33.0" prefWidth="289.0" style="-fx-border-color: #45A29E; -fx-background-color: #0B0C10; -fx-border-radius: 25;" text="Search" textFill="WHITE">
+            <font>
+                <Font name="Perpetua" size="16.0" />
+            </font>
+        </Button>
+    </children>
+
+</AnchorPane>

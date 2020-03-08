@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="950.0" prefWidth="450.0" style="-fx-background-color: #0B0C10;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CarInsert">
+   <children>
+      <TextField fx:id="en" alignment="CENTER" layoutX="90.0" layoutY="382.0" prefHeight="39.0" prefWidth="270.0" promptText="Engine Number" style="-fx-border-color: #45A29E; -fx-border-radius: 25; -fx-background-color: #0B0C10;">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="mo" alignment="CENTER" layoutX="90.0" layoutY="433.0" prefHeight="39.0" prefWidth="270.0" promptText="Model" style="-fx-border-color: #45A29E; -fx-border-radius: 25; -fx-background-color: #0B0C10;">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="co" alignment="CENTER" layoutX="90.0" layoutY="483.0" prefHeight="39.0" prefWidth="270.0" promptText="Color" style="-fx-border-color: #45A29E; -fx-border-radius: 25; -fx-background-color: #0B0C10;">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="mf" alignment="CENTER" layoutX="90.0" layoutY="534.0" prefHeight="39.0" prefWidth="270.0" promptText="Manufacturer" style="-fx-border-color: #45A29E; -fx-border-radius: 25; -fx-background-color: #0B0C10;">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="on" alignment="CENTER" layoutX="90.0" layoutY="585.0" prefHeight="39.0" prefWidth="270.0" promptText="Owner" style="-fx-border-color: #45A29E; -fx-border-radius: 25; -fx-background-color: #0B0C10;">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font></TextField>
+      <Button fx:id="carsubmit" layoutX="90.0" layoutY="657.0" mnemonicParsing="false" onAction="#SubmitButton" prefHeight="39.0" prefWidth="270.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45A29E; -fx-border-radius: 25;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Perpetua" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mainmenu" style="-fx-background-color: #00000000;" text="&lt;-" textFill="#45a29e" />
+      <Button fx:id="exit" layoutX="412.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit4" style="-fx-background-color: #00000000;" text="X" textFill="#45a29e" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="428.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tableinfo">
+   <children>
+      <TableView fx:id="tableView" layoutX="30.0" layoutY="40.0" prefHeight="374.0" prefWidth="574.0">
+        <columns>
+          <TableColumn fx:id="EngineNumber" prefWidth="117.0" text="Engine Number" />
+          <TableColumn fx:id="Model" prefWidth="101.0" text="Model" />
+            <TableColumn fx:id="Color" prefWidth="120.0" text="Color" />
+            <TableColumn fx:id="Manufacturer" prefWidth="134.0" text="Manufacturer" />
+            <TableColumn fx:id="Owner" prefWidth="101.0" text="Owner" />
+        </columns>
+      </TableView>
+      <Button onAction="#mainscreen" fx:id="back" layoutX="302.0" layoutY="2.0" mnemonicParsing="false" style="-fx-background-color: #00000000;" text="&lt;-" />
+   </children>
+</AnchorPane>
